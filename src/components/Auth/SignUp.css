@@ -1,0 +1,64 @@
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  background-color: #4CAF50;
+  border-radius: 8px;
+  height: 560px;
+  width: 550px;
+  color: #ffffff;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.input-group-append button {
+  border-radius: 0 20px 20px 0;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-outline-secondary {
+  border-radius: 20px;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+@media (max-width: 420px) {
+  .button-84 {
+    height: 48px;
+  }
+}
